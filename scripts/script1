@@ -1,1 +1,19 @@
 
+# --- Variables ---
+STUDENT_NAME="Tanish Tailor"
+SOFTWARE_CHOICE="Python"
+# --- System info ---
+KERNEL=$(uname -r)
+USER_NAME=$(whoami)
+UPTIME=$(uptime -p)
+# Fill in your name
+# Fill in your chosen software
+# --- Display ---
+echo "================================"
+echo "  Open Source Audit — $STUDENT_NAME"
+echo "================================"
+echo "Kernel  : $KERNEL"
+echo "User
+: $USER_NAME"
+echo "Uptime  : $UPTIME"
+# TODO: Add distro name, date, and license messa
