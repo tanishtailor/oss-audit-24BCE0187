@@ -50,3 +50,58 @@ scripts/
 - **Bash:** Pre-installed on all Linux systems
 - **Python 3:** Install using `sudo apt install python3`
 - **Git:** Install using `sudo apt install git
+- ---
+
+
+### Running the scripts
+
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/your_github_username/oss-audit-[roll_number].git
+cd oss-audit-[roll_number]
+```
+
+
+### 2. Make the scripts executable
+```bash
+chmod +x *.sh
+```
+
+
+### 3. Execute all scripts
+
+
+**Script 1 - System Identity Report**
+```bash
+./script1_system_identity.sh
+```
+
+
+**Script 2 - FOSS Package Inspector**
+```bash
+./script2_package_inspector.sh
+```
+
+
+**Script 3 - Disk and Permissions Auditor**
+```bash
+./script3_disk_auditor.sh
+```
+
+
+**Script 4 - Log Analyzer**
+```bash
+./script4_log_analyzer.sh /var/log/syslog error
+```
+> Change `/var/log/syslog` to any log file path, change `error` to any word you want to use to search logs.
+
+
+**Script 5 - Open Source Manifesto Generator**
+```bash
+./script5_manifesto.sh
+```
+> This is an interactive script — it will ask you three questions and create a `.txt` file containing your generated manifesto.
+
+
+---
