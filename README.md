@@ -13,7 +13,9 @@
 ## About This Project
 
 This repository is part of the Open Source Audit capstone project for the OSS NGMC course. 
+
 -The project involves a structured audit of Python as an open-source software — covering its origin, license, ethics, Linux footprint, and ecosystem. Alongside the written report,
+
 -five shell scripts are included that demonstrate practical Linux and bash scripting skills.
 
 ---
