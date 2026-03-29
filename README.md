@@ -31,3 +31,13 @@ scripts/
    ├── script3.sh
    ├── script4.sh
    └── script5.sh
+
+The Scripts Overview provides an overview of each script file and what it does.
+
+| Script | File | Description |
+| ---- | ---- | ---- |
+| 1 | script1_system_identity.sh | Display's (system info -kernel, user, uptime, date and license note) |
+| 2 | script2_package_inspector.sh | Checks if Python is installed and prints out a philosophy note |
+| 3 | script3_disk_auditor.sh | Audits key directories for (permissions, ownership and size) |
+| 4 | script4_log_analyzer.sh | Scans (log file) for keyword(s) and counts occurrences |
+| 5 | script5_manifesto.sh | Interactive Manifesto Generator saved to a .txt file.
