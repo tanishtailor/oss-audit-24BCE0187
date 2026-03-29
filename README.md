@@ -58,8 +58,8 @@ scripts/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your_github_username/oss-audit-[roll_number].git
-cd oss-audit-[roll_number]
+git clone https://github.com/your_github_username/oss-audit-24BCE10187.git
+cd oss-audit-24BCE10187
 ```
 
 
